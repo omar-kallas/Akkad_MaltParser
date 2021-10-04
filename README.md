@@ -11,3 +11,15 @@ The directory also has the following diretories that contains the Akkad data and
 - **PATB**: this contains three files from the PATB, one used for training (train), onr for develeopment (dev), and one for testing (test).
 - **PATB_train_and_Akkad**: this contains 5 files, each of them is the concatination of the PATB training set, with one of the files in Akkas_only (the ones used for cross-validation).
 - **learning curve**: this file contains the files used to create a learning curve using the learning_curve.py code which is explained in a later part of this document.
+
+# config.json
+the config.json file is a file that includes the important information, and is used in many parts of the code to identify the files that should be used in training and parsing:
+- **parser info**: file name and data_path
+- **evaluator info**: file name and data_path
+- **training sets**: the sets of data that will be used to traing the parser. It includes the path of the data files, a list of the names of the files, and the output folder where the model will be stored. 
+- **parsing sets**: the sets of data that will be parsed. It includes the paths of the data files and trained models, a list of the pairs of the models and the files that will be parsed, and the output folder where the parsed data will be stored. 
+
+# maltparser and malteval
+This project uses the maltparser 1.9.2 and malteval software obtained from http://www.maltparser.org/download.html and http://www.maltparser.org/malteval.html
+
+In order for the code to work, install maltparser and malteval and update their directories in the config.json file, under the parsers['path'] and evaluators['path']. You should enter the directories of the jar files.

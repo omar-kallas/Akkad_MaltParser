@@ -1,0 +1,173 @@
+{
+    "parsers": [
+        {
+            "name": "MaltParser",
+            "path": "./external_libraries/maltparser-1.9.2/",
+            "file": "maltparser-1.9.2.jar"
+        }
+    ],
+
+    "evaluators": [
+        {
+            "name": "MaltEval",
+            "path": "./external_libraries/malteval/lib/",
+            "file": "MaltEval.jar"
+        }
+    ],
+
+    "train_sets":[
+        {
+            "name": "PATB",
+            "data_path": "./data/PATB/",
+            "files": ["catib.train.conllu"],
+            "output_path": "./models/"
+        },
+
+        {
+            "name": "Akkad_only",
+            "data_path": "./data/Akkad_only/",
+            "files":[
+                "Akkad_1-2-3-4.conllu",
+                "Akkad_1-2-3-5.conllu",
+                "Akkad_1-2-4-5.conllu",
+                "Akkad_1-3-4-5.conllu",
+                "Akkad_2-3-4-5.conllu"
+            ],
+            "output_path": "./models/"
+        },
+
+        {
+            "name": "PATB_train_and_Akkad",
+            "data_path": "./data/PATB_train_and_Akkad/",
+            "files": [
+                "PATB_Akkad_1-2-3-4.conllu",
+                "PATB_Akkad_1-2-3-5.conllu",
+                "PATB_Akkad_1-2-4-5.conllu",
+                "PATB_Akkad_1-3-4-5.conllu",
+                "PATB_Akkad_2-3-4-5.conllu"
+            ],
+            "output_path": "./models/"
+        }
+    ],
+
+    "parse_sets":[
+        
+        {
+            "name": "Akkad_on_Akkad_only",
+            "data_path": "./data/Akkad_parts/",
+            "model_path": "./models/Akkad_only",
+            "model_input_pairs": [
+                ["model_Akkad_2-3-4-5.conllu.mco", "Akkad_part_1.conllu"],
+                ["model_Akkad_1-3-4-5.conllu.mco", "Akkad_part_2.conllu"],
+                ["model_Akkad_1-2-4-5.conllu.mco", "Akkad_part_3.conllu"],
+                ["model_Akkad_1-2-3-5.conllu.mco", "Akkad_part_4.conllu"],
+                ["model_Akkad_1-2-3-4.conllu.mco", "Akkad_part_5.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "Akkad_on_PATB_train_and_Akkad",
+            "data_path": "./data/Akkad_parts/",
+            "model_path": "./models/PATB_train_and_Akkad",
+            "model_input_pairs": [
+                ["model_PATB_Akkad_2-3-4-5.conllu.mco", "Akkad_part_1.conllu"],
+                ["model_PATB_Akkad_1-3-4-5.conllu.mco", "Akkad_part_2.conllu"],
+                ["model_PATB_Akkad_1-2-4-5.conllu.mco", "Akkad_part_3.conllu"],
+                ["model_PATB_Akkad_1-2-3-5.conllu.mco", "Akkad_part_4.conllu"],
+                ["model_PATB_Akkad_1-2-3-4.conllu.mco", "Akkad_part_5.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "Akkad_on_PATB",
+            "data_path": "./data/Akkad_parts/",
+            "model_path": "./models/PATB",
+            "model_input_pairs": [
+                ["model_catib.train.conllu.mco", "Akkad_part_1.conllu"],
+                ["model_catib.train.conllu.mco", "Akkad_part_2.conllu"],
+                ["model_catib.train.conllu.mco", "Akkad_part_3.conllu"],
+                ["model_catib.train.conllu.mco", "Akkad_part_4.conllu"],
+                ["model_catib.train.conllu.mco", "Akkad_part_5.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_dev_on_Akkad_only",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/Akkad_only",
+            "model_input_pairs": [
+                ["model_Akkad_2-3-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_Akkad_1-3-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_Akkad_1-2-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_Akkad_1-2-3-5.conllu.mco", "catib.dev.conllu"],
+                ["model_Akkad_1-2-3-4.conllu.mco", "catib.dev.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_dev_on_PATB_train_and_Akkad",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/PATB_train_and_Akkad",
+            "model_input_pairs": [
+                ["model_PATB_Akkad_2-3-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_PATB_Akkad_1-3-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_PATB_Akkad_1-2-4-5.conllu.mco", "catib.dev.conllu"],
+                ["model_PATB_Akkad_1-2-3-5.conllu.mco", "catib.dev.conllu"],
+                ["model_PATB_Akkad_1-2-3-4.conllu.mco", "catib.dev.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_dev_on_PATB",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/PATB",
+            "model_input_pairs": [
+                ["model_catib.train.conllu", "catib.dev.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_test_on_Akkad_only",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/Akkad_only",
+            "model_input_pairs": [
+                ["model_Akkad_2-3-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_Akkad_1-3-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_Akkad_1-2-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_Akkad_1-2-3-5.conllu.mco", "catib.test.conllu"],
+                ["model_Akkad_1-2-3-4.conllu.mco", "catib.test.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_test_on_PATB_train_and_Akkad",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/PATB_train_and_Akkad",
+            "model_input_pairs": [
+                ["model_PATB_Akkad_2-3-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_PATB_Akkad_1-3-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_PATB_Akkad_1-2-4-5.conllu.mco", "catib.test.conllu"],
+                ["model_PATB_Akkad_1-2-3-5.conllu.mco", "catib.test.conllu"],
+                ["model_PATB_Akkad_1-2-3-4.conllu.mco", "catib.test.conllu"]
+            ],
+            "output_path": "./parsed/"
+        },
+
+        {
+            "name": "PATB_test_on_PATB",
+            "data_path": "./data/PATB/",
+            "model_path": "./models/PATB",
+            "model_input_pairs": [
+                ["model_catib.train.conllu", "catib.test.conllu"]
+            ],
+            "output_path": "./parsed/"
+        }
+    ]
+}
