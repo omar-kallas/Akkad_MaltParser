@@ -25,9 +25,9 @@ This project uses the maltparser 1.9.2 and malteval software obtained from http:
 In order for the code to work, install maltparser and malteval and update their directories in the config.json file, under the parsers['path'] and evaluators['path']. You should enter the directories of the jar files.
 
 # "project" directory:
-This directory contains the python code used in this project. There are four files directly under this directory which run the main experiments on the data. These are:
--
--
+This directory contains the python code used in this project. There are five files directly under this directory which run the main experiments on the data. These are:
+- **run_maltparser.py**: This file runs maltparser and malteval by running the terminal's call. It has differenet methods: one for training, one for parsing, and one for evaluating.
+- **maltparser_train.py**: This code extracts the information about the training sets and models from the config file and runs maltparser on each file that is used for training
 -
 -
 
