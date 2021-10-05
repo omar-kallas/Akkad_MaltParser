@@ -23,3 +23,13 @@ the config.json file is a file that includes the important information, and is u
 This project uses the maltparser 1.9.2 and malteval software obtained from http://www.maltparser.org/download.html and http://www.maltparser.org/malteval.html
 
 In order for the code to work, install maltparser and malteval and update their directories in the config.json file, under the parsers['path'] and evaluators['path']. You should enter the directories of the jar files.
+
+# "project" directory:
+This directory contains the python code used in this project. There are four files directly under this directory which run the main experiments on the data. These are:
+-
+-
+-
+-
+
+Other files are stored in the **/tools** directory which are used to produce more statistics. These files are:
+- methods.py: This file includes simple methods that are used in different parts of the code
