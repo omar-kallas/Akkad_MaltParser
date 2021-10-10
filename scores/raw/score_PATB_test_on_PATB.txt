@@ -1,4 +1,4 @@
-Evaluation arguments: -s ./parsed/PATB_test_on_PATB/1_parsed_PATB_test_on_PATB_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/score_PATB_test_on_PATB.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+Evaluation arguments: -s ./parsed/PATB_test_on_PATB/1_parsed_PATB_test_on_PATB_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/raw/score_PATB_test_on_PATB.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
 Parsed: ./parsed/PATB_test_on_PATB/1_parsed_PATB_test_on_PATB_catib.test.conllu

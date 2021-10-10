@@ -1,7 +1,7 @@
-Evaluation arguments: -s ./parsed/Akkad_on_PATB_train_and_Akkad/1_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_1.conllu ./parsed/Akkad_on_PATB_train_and_Akkad/2_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_2.conllu ./parsed/Akkad_on_PATB_train_and_Akkad/3_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_3.conllu ./parsed/Akkad_on_PATB_train_and_Akkad/4_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_4.conllu ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu -g ./data/Akkad_parts/Akkad_part_1.conllu ./data/Akkad_parts/Akkad_part_2.conllu ./data/Akkad_parts/Akkad_part_3.conllu ./data/Akkad_parts/Akkad_part_4.conllu ./data/Akkad_parts/Akkad_part_5.conllu --output ./scores/score_Akkad_on_PATB_train_and_Akkad.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+Evaluation arguments: -s ./parsed/Akkad_on_Akkad_only/1_parsed_Akkad_on_Akkad_only_Akkad_part_1.conllu ./parsed/Akkad_on_Akkad_only/2_parsed_Akkad_on_Akkad_only_Akkad_part_2.conllu ./parsed/Akkad_on_Akkad_only/3_parsed_Akkad_on_Akkad_only_Akkad_part_3.conllu ./parsed/Akkad_on_Akkad_only/4_parsed_Akkad_on_Akkad_only_Akkad_part_4.conllu ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu -g ./data/Akkad_parts/Akkad_part_1.conllu ./data/Akkad_parts/Akkad_part_2.conllu ./data/Akkad_parts/Akkad_part_3.conllu ./data/Akkad_parts/Akkad_part_4.conllu ./data/Akkad_parts/Akkad_part_5.conllu --output ./scores/raw/score_Akkad_on_Akkad_only.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_1.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/1_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_1.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/1_parsed_Akkad_on_Akkad_only_Akkad_part_1.conllu
 ====================================================
 GroupBy-> Token
 
@@ -9,13 +9,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-89.3634%	79.7106%	75.6597%	
+89.8611%	83.4491%	80.0579%	
 8640	8640	8640	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_2.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/2_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_2.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/2_parsed_Akkad_on_Akkad_only_Akkad_part_2.conllu
 ====================================================
 GroupBy-> Token
 
@@ -23,13 +23,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-88.2623%	79.0649%	75.2874%	
+89.8171%	83.9702%	80.2803%	
 9133	9133	9133	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_3.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/3_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_3.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/3_parsed_Akkad_on_Akkad_only_Akkad_part_3.conllu
 ====================================================
 GroupBy-> Token
 
@@ -37,13 +37,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-88.0248%	77.9405%	73.9552%	
+89.7702%	84.7571%	80.6943%	
 10313	10313	10313	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_4.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/4_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_4.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/4_parsed_Akkad_on_Akkad_only_Akkad_part_4.conllu
 ====================================================
 GroupBy-> Token
 
@@ -51,13 +51,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-87.9952%	78.1574%	73.5177%	
+89.1252%	85.0970%	80.6036%	
 7522	7522	7522	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu
 ====================================================
 GroupBy-> Token
 
@@ -65,13 +65,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-88.4462%	77.6818%	73.9853%	
+90.0065%	85.7063%	81.7219%	
 10767	10767	10767	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_1.conllu, ./data/Akkad_parts/Akkad_part_2.conllu, ./data/Akkad_parts/Akkad_part_3.conllu, ./data/Akkad_parts/Akkad_part_4.conllu, ./data/Akkad_parts/Akkad_part_5.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/1_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_1.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/2_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_2.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/3_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_3.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/4_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_4.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/1_parsed_Akkad_on_Akkad_only_Akkad_part_1.conllu, ./parsed/Akkad_on_Akkad_only/2_parsed_Akkad_on_Akkad_only_Akkad_part_2.conllu, ./parsed/Akkad_on_Akkad_only/3_parsed_Akkad_on_Akkad_only_Akkad_part_3.conllu, ./parsed/Akkad_on_Akkad_only/4_parsed_Akkad_on_Akkad_only_Akkad_part_4.conllu, ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu
 ====================================================
 Mean:
 
@@ -79,18 +79,18 @@ Mean:
 
 Agg. accuracy	
 ---------------------------
-88.4184%	
+89.7160%	
 5	
 ---------------------------
-89.3634%	
-88.2623%	
-88.0248%	
-87.9952%	
-88.4462%	
+89.8611%	
+89.8171%	
+89.7702%	
+89.1252%	
+90.0065%	
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_1.conllu, ./data/Akkad_parts/Akkad_part_2.conllu, ./data/Akkad_parts/Akkad_part_3.conllu, ./data/Akkad_parts/Akkad_part_4.conllu, ./data/Akkad_parts/Akkad_part_5.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/1_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_1.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/2_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_2.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/3_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_3.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/4_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_4.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/1_parsed_Akkad_on_Akkad_only_Akkad_part_1.conllu, ./parsed/Akkad_on_Akkad_only/2_parsed_Akkad_on_Akkad_only_Akkad_part_2.conllu, ./parsed/Akkad_on_Akkad_only/3_parsed_Akkad_on_Akkad_only_Akkad_part_3.conllu, ./parsed/Akkad_on_Akkad_only/4_parsed_Akkad_on_Akkad_only_Akkad_part_4.conllu, ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu
 ====================================================
 Mean:
 
@@ -98,18 +98,18 @@ Mean:
 
 Agg. accuracy	
 ---------------------------
-78.5111%	
+84.5960%	
 5	
 ---------------------------
-79.7106%	
-79.0649%	
-77.9405%	
-78.1574%	
-77.6818%	
+83.4491%	
+83.9702%	
+84.7571%	
+85.0970%	
+85.7063%	
 
 ====================================================
 Gold:   ./data/Akkad_parts/Akkad_part_1.conllu, ./data/Akkad_parts/Akkad_part_2.conllu, ./data/Akkad_parts/Akkad_part_3.conllu, ./data/Akkad_parts/Akkad_part_4.conllu, ./data/Akkad_parts/Akkad_part_5.conllu
-Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/1_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_1.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/2_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_2.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/3_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_3.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/4_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_4.conllu, ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/1_parsed_Akkad_on_Akkad_only_Akkad_part_1.conllu, ./parsed/Akkad_on_Akkad_only/2_parsed_Akkad_on_Akkad_only_Akkad_part_2.conllu, ./parsed/Akkad_on_Akkad_only/3_parsed_Akkad_on_Akkad_only_Akkad_part_3.conllu, ./parsed/Akkad_on_Akkad_only/4_parsed_Akkad_on_Akkad_only_Akkad_part_4.conllu, ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu
 ====================================================
 Mean:
 
@@ -117,12 +117,12 @@ Mean:
 
 Agg. accuracy	
 ---------------------------
-74.4811%	
+80.6716%	
 5	
 ---------------------------
-75.6597%	
-75.2874%	
-73.9552%	
-73.5177%	
-73.9853%	
+80.0579%	
+80.2803%	
+80.6943%	
+80.6036%	
+81.7219%	
 

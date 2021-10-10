@@ -29,8 +29,8 @@ for eval in config['evaluators']:
                 gold.append(f"{set['data_path']}{pair[1]}")
             parsed.append(f"{set['output_path']}{set['name']}/{i+1}_parsed_{set['name']}_{pair[1]}")
         
-        methods.mkdir("./scores")
-        output_file = f"./scores/score_{set['name']}.txt"
+        methods.mkdir("./scores/raw")
+        output_file = f"./scores/raw/score_{set['name']}.txt"
         
         print("evaluating the following files:\n{:s}...".format('\n'.join(parsed)))
         run_maltparser.eval(eval_file, gold, parsed, output_file)
