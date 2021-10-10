@@ -16,8 +16,18 @@ The directory also has the following diretories that contains the Akkad data and
 the config.json file is a file that includes the important information, and is used in many parts of the code to identify the files that should be used in training and parsing:
 - **parser info**: file name and data_path
 - **evaluator info**: file name and data_path
-- **training sets**: the sets of data that will be used to traing the parser. It includes the path of the data files, a list of the names of the files, and the output folder where the model will be stored. 
-- **parsing sets**: the sets of data that will be parsed. It includes the paths of the data files and trained models, a list of the pairs of the models and the files that will be parsed, and the output folder where the parsed data will be stored. 
+
+- **training sets**: the sets of data that will be used to traing the parser. It includes the path of the data files, a list of the names of the files, and the output folder where the model will be stored.
+There are currently 3 training sets:
+1. **PATB**: this one uses the PATB training set stored in catib.train.conllu
+2. **Akkad_only**: this one uses 5 files, each one contains 4 out of 5 folds of the Akkad data. Example: Akkad_1-2-3-4.conllu which contains the 1st, 2nd, 3rd, and 4th folds.
+3. **PATB_train_and_Akkad**: this one uses 5 files, each one contains the PATB training set plus a file from the Akkad_only set.
+
+- **parsing sets**: the sets of data that will be parsed. It includes the paths of the data files and trained models, a list of the pairs of the models and input files that will be parsed, and the output folder where the parsed data will be stored. 
+There are 9 parsing sets in total, coming frmo 3 models created by the 3 training sets, and 3 different sets that we want to parse. The 3 sets we want to parse are:
+1. **Akkad**: This set contains 5 files we want to parse separately, which are the 5 folds of the Akkad data. When parsed using the PATB training set, all files are parsed with the same model. However, when parsed using the Akkad_only or PATB_train_and_Akkad set, each file will be parsed using the model that didn't use the file in the training. For example: when parsing the file Akkad_part_1.conllu using Akkad_only training set, we use the model model_Akkad_2-3-4-5.conllu.mco. This is configured in the model_input_pairs list.
+2. **PATB_dev** this set has the file catib.dev.conllu which contains the PATB develeopment set. This is parsed using all the different models in the training sets.
+2. **PATB_test** this set has the file catib.test.conllu which contains the PATB testing set. This is parsed using all the different models in the training sets.
 
 # maltparser and malteval
 This project uses the maltparser 1.9.2 and malteval software obtained from http://www.maltparser.org/download.html and http://www.maltparser.org/malteval.html
