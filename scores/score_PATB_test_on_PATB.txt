@@ -1,0 +1,15 @@
+Evaluation arguments: -s ./parsed/PATB_test_on_PATB/1_parsed_PATB_test_on_PATB_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/score_PATB_test_on_PATB.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB/1_parsed_PATB_test_on_PATB_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.8347%	83.9352%	81.7255%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+

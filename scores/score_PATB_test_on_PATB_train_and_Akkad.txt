@@ -1,0 +1,71 @@
+Evaluation arguments: -s ./parsed/PATB_test_on_PATB_train_and_Akkad/1_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/2_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/3_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/4_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/5_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/score_PATB_test_on_PATB_train_and_Akkad.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/1_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.7039%	83.8327%	81.6270%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/2_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.7390%	83.8961%	81.6836%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/3_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.7740%	83.9191%	81.7241%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/4_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.7174%	83.8948%	81.6877%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/PATB/catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/5_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+93.7039%	83.8948%	81.6432%	
+74125	74125	74125	
+--------------------------------------------------------------------------------
+
