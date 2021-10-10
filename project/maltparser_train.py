@@ -23,7 +23,7 @@ for parser in config['parsers']:
     for set in config['train_sets']:
         for file in set['files']:
             model = "model_" + file
-            working_space = f"{set['output_path']}{set['name']}"
+            working_space = f"{set['output_path']}{set['name']}"    #this is the path where the model will be stored
             input_path = set['data_path'] + file
             
             # create output folder if it is not there
