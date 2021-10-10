@@ -2,7 +2,7 @@
 
 This project uses MaltParser to train models using data from Al-Akkad novel "Sara", as well as the PATB, and different combinations of the two datasets. It then uses these models to parse the some of parts of the Akkad data, and uses malteval to get some statistical information about the accuracyc of the parser using differnet measures.
 
-# Data directory
+# ./data directory
 the directory ./data contains the data that is used in the training and the modeling process. It has two conllu files that contain the parsed sentences of the Akkad novel, one of them with text (i.e with the full sentence preceeding its tokenization), and the other is without text. The one without text is the one used to split the data.
 
 The directory also has the following diretories that contains the Akkad data and the PATB data split and merged in different ways:
@@ -34,11 +34,15 @@ This project uses the maltparser 1.9.2 and malteval software obtained from http:
 
 In order for the code to work, install maltparser and malteval and update their directories in the config.json file, under the parsers['path'] and evaluators['path']. You should enter the directories of the jar files.
 
-# "project" directory:
+# ./parsed directory
+This directory contains 10 sub-directories. 9 of them correspond to the 9 parsing sets specified in the config file, and 1 corresponding to the learning curve experiment. Each sub-directory contains the parsed results of the parsing sets. These files are used to calculate the score of each parsing set.
+The name of each of the 9 main sub directories specifies the parsed data and the training data. For example, the directory "Akkad_on_Akkad_only" contins the results of parsing Akkad parts using other parts of Akkad.
+
+# ./project directory:
 This directory contains the python code used in this project. There are five files directly under this directory which run the main experiments on the data. These are:
 - **run_maltparser.py**: This file runs maltparser and malteval by running the terminal's call. It has differenet methods: one for training, one for parsing, and one for evaluating.
 - **maltparser_train.py**: This code extracts the information about the training sets and models from the config file and runs maltparser on each file that is used for training
--
+- **maltparser_parse.py**: This code extracts the information about the models and input files from the config file and runs maltparser to parse each file with the specified model.
 -
 
 Other files are stored in the **/tools** directory which are used to produce more statistics. These files are:
