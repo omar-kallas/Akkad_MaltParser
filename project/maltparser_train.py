@@ -1,6 +1,7 @@
 '''
 This code extracts the information about the training sets and models from the config file
-and runs maltparser on each file that is used for training
+and runs maltparser on each file that is used for training.
+It stores the output under the ./models directory.
 '''
 
 import sys, os

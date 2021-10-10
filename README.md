@@ -41,8 +41,9 @@ The name of each of the 9 main sub directories specifies the parsed data and the
 # ./project directory:
 This directory contains the python code used in this project. There are five files directly under this directory which run the main experiments on the data. These are:
 - **run_maltparser.py**: This file runs maltparser and malteval by running the terminal's call. It has differenet methods: one for training, one for parsing, and one for evaluating.
-- **maltparser_train.py**: This code extracts the information about the training sets and models from the config file and runs maltparser on each file that is used for training
-- **maltparser_parse.py**: This code extracts the information about the models and input files from the config file and runs maltparser to parse each file with the specified model.
+- **maltparser_train.py**: This code extracts the information about the training sets and models from the config file and runs maltparser on each file that is used for training. It stores the output under the ./models directory.
+- **maltparser_parse.py**: This code extracts the information about the models and input files from the config file and runs maltparser to parse each file with the specified model. It stores the results under the ./parsed directory.
+- **maltparser_score.py**: This code runs malteval on the 9 parsing sets specified in the config file. It stores the output under the ./scores/raw directory.
 -
 
 Other files are stored in the **/tools** directory which are used to produce more statistics. These files are:

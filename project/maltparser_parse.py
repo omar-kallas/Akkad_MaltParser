@@ -1,6 +1,7 @@
 '''
 This code extracts the information about the models and input files from the config file
 and runs maltparser to parse each file with the specified model.
+It stores the results under the ./parsed directory.
 '''
 
 import sys, os
