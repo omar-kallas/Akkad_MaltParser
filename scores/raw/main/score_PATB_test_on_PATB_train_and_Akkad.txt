@@ -1,7 +1,7 @@
-Evaluation arguments: -s ./parsed/PATB_test_on_Akkad_only/1_parsed_PATB_test_on_Akkad_only_catib.test.conllu ./parsed/PATB_test_on_Akkad_only/2_parsed_PATB_test_on_Akkad_only_catib.test.conllu ./parsed/PATB_test_on_Akkad_only/3_parsed_PATB_test_on_Akkad_only_catib.test.conllu ./parsed/PATB_test_on_Akkad_only/4_parsed_PATB_test_on_Akkad_only_catib.test.conllu ./parsed/PATB_test_on_Akkad_only/5_parsed_PATB_test_on_Akkad_only_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/raw/score_PATB_test_on_Akkad_only.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+Evaluation arguments: -s ./parsed/PATB_test_on_PATB_train_and_Akkad/1_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/2_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/3_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/4_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu ./parsed/PATB_test_on_PATB_train_and_Akkad/5_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu -g ./data/PATB/catib.test.conllu --output ./scores/raw/main/score_PATB_test_on_PATB_train_and_Akkad.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
-Parsed: ./parsed/PATB_test_on_Akkad_only/1_parsed_PATB_test_on_Akkad_only_catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/1_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
 ====================================================
 GroupBy-> Token
 
@@ -9,13 +9,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-83.3551%	69.2735%	63.0948%	
+93.7039%	83.8327%	81.6270%	
 74125	74125	74125	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
-Parsed: ./parsed/PATB_test_on_Akkad_only/2_parsed_PATB_test_on_Akkad_only_catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/2_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
 ====================================================
 GroupBy-> Token
 
@@ -23,13 +23,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-83.1029%	68.9929%	63.0395%	
+93.7390%	83.8961%	81.6836%	
 74125	74125	74125	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
-Parsed: ./parsed/PATB_test_on_Akkad_only/3_parsed_PATB_test_on_Akkad_only_catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/3_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
 ====================================================
 GroupBy-> Token
 
@@ -37,13 +37,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-83.3133%	68.8634%	62.8074%	
+93.7740%	83.9191%	81.7241%	
 74125	74125	74125	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
-Parsed: ./parsed/PATB_test_on_Akkad_only/4_parsed_PATB_test_on_Akkad_only_catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/4_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
 ====================================================
 GroupBy-> Token
 
@@ -51,13 +51,13 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-83.6587%	69.4084%	63.4226%	
+93.7174%	83.8948%	81.6877%	
 74125	74125	74125	
 --------------------------------------------------------------------------------
 
 ====================================================
 Gold:   ./data/PATB/catib.test.conllu
-Parsed: ./parsed/PATB_test_on_Akkad_only/5_parsed_PATB_test_on_Akkad_only_catib.test.conllu
+Parsed: ./parsed/PATB_test_on_PATB_train_and_Akkad/5_parsed_PATB_test_on_PATB_train_and_Akkad_catib.test.conllu
 ====================================================
 GroupBy-> Token
 
@@ -65,7 +65,7 @@ GroupBy-> Token
 
 accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
 --------------------------------------------------------------------------------
-84.1336%	69.7565%	63.8894%	
+93.7039%	83.8948%	81.6432%	
 74125	74125	74125	
 --------------------------------------------------------------------------------
 

@@ -24,8 +24,8 @@ def get_train_and_parsed(parsed_file):
     return f"{parsed} \t{train}"
 
 # define the input and output paths
-in_path = current_path + "/../../scores/raw/"
-out_path = current_path + "/../../scores/processed/"
+in_path = current_path + "/../../scores/raw/main/"
+out_path = current_path + "/../../scores/processed/main/"
 
 # a list of all files in the raw scores directory
 files = os.listdir(in_path)
