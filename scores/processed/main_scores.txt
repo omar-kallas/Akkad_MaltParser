@@ -1,0 +1,75 @@
+Parsed file 	training set 	Label 	UAS 	LAS 
+Akkad part 1.conllu 	Akkad only	89.8611%	83.4491%	80.0579%	
+
+Akkad part 2.conllu 	Akkad only	89.8171%	83.9702%	80.2803%	
+
+Akkad part 3.conllu 	Akkad only	89.7702%	84.7571%	80.6943%	
+
+Akkad part 4.conllu 	Akkad only	89.1252%	85.0970%	80.6036%	
+
+Akkad part 5.conllu 	Akkad only	90.0065%	85.7063%	81.7219%	
+
+Akkad part 1.conllu 	PATB	87.2106%	76.4931%	71.9676%	
+
+Akkad part 2.conllu 	PATB	85.9630%	75.0246%	70.7544%	
+
+Akkad part 3.conllu 	PATB	85.9692%	74.2461%	69.7566%	
+
+Akkad part 4.conllu 	PATB	85.2832%	73.4778%	68.0537%	
+
+Akkad part 5.conllu 	PATB	86.8766%	74.5704%	70.3353%	
+
+Akkad part 1.conllu 	PATB train and Akkad	89.3634%	79.7106%	75.6597%	
+
+Akkad part 2.conllu 	PATB train and Akkad	88.2623%	79.0649%	75.2874%	
+
+Akkad part 3.conllu 	PATB train and Akkad	88.0248%	77.9405%	73.9552%	
+
+Akkad part 4.conllu 	PATB train and Akkad	87.9952%	78.1574%	73.5177%	
+
+Akkad part 5.conllu 	PATB train and Akkad	88.4462%	77.6818%	73.9853%	
+
+catib.dev.conllu 	Akkad only	83.5094%	69.6085%	63.4918%	
+
+catib.dev.conllu 	Akkad only	83.2578%	69.5409%	63.4864%	
+
+catib.dev.conllu 	Akkad only	83.3376%	69.3096%	63.0753%	
+
+catib.dev.conllu 	Akkad only	83.9232%	69.8262%	63.8826%	
+
+catib.dev.conllu 	Akkad only	84.1328%	69.9209%	64.1801%	
+
+catib.dev.conllu 	PATB	94.1659%	84.8888%	82.6520%	
+
+catib.dev.conllu 	PATB train and Akkad	94.1470%	84.7982%	82.5938%	
+
+catib.dev.conllu 	PATB train and Akkad	94.1727%	84.7671%	82.5857%	
+
+catib.dev.conllu 	PATB train and Akkad	94.1578%	84.8496%	82.6452%	
+
+catib.dev.conllu 	PATB train and Akkad	94.1646%	84.8293%	82.6128%	
+
+catib.dev.conllu 	PATB train and Akkad	94.2417%	84.9091%	82.7426%	
+
+catib.test.conllu 	Akkad only	83.3551%	69.2735%	63.0948%	
+
+catib.test.conllu 	Akkad only	83.1029%	68.9929%	63.0395%	
+
+catib.test.conllu 	Akkad only	83.3133%	68.8634%	62.8074%	
+
+catib.test.conllu 	Akkad only	83.6587%	69.4084%	63.4226%	
+
+catib.test.conllu 	Akkad only	84.1336%	69.7565%	63.8894%	
+
+catib.test.conllu 	PATB	93.8347%	83.9352%	81.7255%	
+
+catib.test.conllu 	PATB train and Akkad	93.7039%	83.8327%	81.6270%	
+
+catib.test.conllu 	PATB train and Akkad	93.7390%	83.8961%	81.6836%	
+
+catib.test.conllu 	PATB train and Akkad	93.7740%	83.9191%	81.7241%	
+
+catib.test.conllu 	PATB train and Akkad	93.7174%	83.8948%	81.6877%	
+
+catib.test.conllu 	PATB train and Akkad	93.7039%	83.8948%	81.6432%	
+
