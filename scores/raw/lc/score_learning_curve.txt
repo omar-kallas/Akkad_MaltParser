@@ -1,0 +1,141 @@
+Evaluation arguments: -s ./parsed/learning_curve/parsed_Akkad_set_1.conllu ./parsed/learning_curve/parsed_Akkad_set_2.conllu ./parsed/learning_curve/parsed_Akkad_set_3.conllu ./parsed/learning_curve/parsed_Akkad_set_4.conllu ./parsed/learning_curve/parsed_Akkad_set_5.conllu ./parsed/learning_curve/parsed_PATB+Akkad_set_1.conllu ./parsed/learning_curve/parsed_PATB+Akkad_set_2.conllu ./parsed/learning_curve/parsed_PATB+Akkad_set_3.conllu ./parsed/learning_curve/parsed_PATB+Akkad_set_4.conllu ./parsed/learning_curve/parsed_PATB+Akkad_set_5.conllu -g ./data/Akkad_parts/Akkad_part_5.conllu --output ./scores/raw/lc/score_learning_curve.txt --Metric "LAS;UAS;LA" --tab 1 --row-header 0 --pattern 0.0000%
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_Akkad_set_1.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+81.0532%	70.9761%	64.4191%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_Akkad_set_2.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+83.3101%	73.5117%	67.4933%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_Akkad_set_3.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+87.1923%	81.1832%	76.0843%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_Akkad_set_4.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+89.1056%	84.2760%	79.8458%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_Akkad_set_5.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+90.0065%	85.7063%	81.7219%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_PATB+Akkad_set_1.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+86.8580%	74.5704%	70.4003%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_PATB+Akkad_set_2.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+87.0809%	74.7562%	70.7254%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_PATB+Akkad_set_3.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+87.8425%	75.8150%	71.7470%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_PATB+Akkad_set_4.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+88.1861%	76.3165%	72.4436%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/learning_curve/parsed_PATB+Akkad_set_5.conllu
+====================================================
+GroupBy-> Token
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	
+--------------------------------------------------------------------------------
+88.4462%	77.6818%	73.9853%	
+10767	10767	10767	
+--------------------------------------------------------------------------------
+

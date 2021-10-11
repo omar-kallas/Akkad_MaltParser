@@ -1,0 +1,21 @@
+Parsed file 	training set 	Label 	UAS 	LAS 
+Akkad part 5	Akkad_set_1.conllu	81.0532%	70.9761%	64.4191%	
+
+Akkad part 5	Akkad_set_2.conllu	83.3101%	73.5117%	67.4933%	
+
+Akkad part 5	Akkad_set_3.conllu	87.1923%	81.1832%	76.0843%	
+
+Akkad part 5	Akkad_set_4.conllu	89.1056%	84.2760%	79.8458%	
+
+Akkad part 5	Akkad_set_5.conllu	90.0065%	85.7063%	81.7219%	
+
+Akkad part 5	PATB+Akkad_set_1.conllu	86.8580%	74.5704%	70.4003%	
+
+Akkad part 5	PATB+Akkad_set_2.conllu	87.0809%	74.7562%	70.7254%	
+
+Akkad part 5	PATB+Akkad_set_3.conllu	87.8425%	75.8150%	71.7470%	
+
+Akkad part 5	PATB+Akkad_set_4.conllu	88.1861%	76.3165%	72.4436%	
+
+Akkad part 5	PATB+Akkad_set_5.conllu	88.4462%	77.6818%	73.9853%	
+
