@@ -1,0 +1,46 @@
+Evaluation arguments: -s ./parsed/Akkad_on_PATB/5_parsed_Akkad_on_PATB_Akkad_part_5.conllu ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu -g ./data/Akkad_parts/Akkad_part_5.conllu --Metric "LAS;LA;UAS" --tab 1 --header-info 1 --row-header 1 --pattern 0.000% --ExcludeCpostags PNX
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_PATB/5_parsed_Akkad_on_PATB_Akkad_part_5.conllu
+====================================================
+GroupBy-> Token
+ExcludeCpostags-> PNX
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	Token
+--------------------------------------------------------------------------------
+86.735%	80.092%	75.493%	Row mean
+9785	9785	9785	Row count
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_Akkad_only/5_parsed_Akkad_on_Akkad_only_Akkad_part_5.conllu
+====================================================
+GroupBy-> Token
+ExcludeCpostags-> PNX
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	Token
+--------------------------------------------------------------------------------
+89.188%	86.684%	82.340%	Row mean
+9785	9785	9785	Row count
+--------------------------------------------------------------------------------
+
+====================================================
+Gold:   ./data/Akkad_parts/Akkad_part_5.conllu
+Parsed: ./parsed/Akkad_on_PATB_train_and_Akkad/5_parsed_Akkad_on_PATB_train_and_Akkad_Akkad_part_5.conllu
+====================================================
+GroupBy-> Token
+ExcludeCpostags-> PNX
+
+====================================================
+
+accuracy / Metric:LA	accuracy / Metric:UAS	accuracy / Metric:LAS	Token
+--------------------------------------------------------------------------------
+87.614%	81.737%	77.701%	Row mean
+9785	9785	9785	Row count
+--------------------------------------------------------------------------------
+
