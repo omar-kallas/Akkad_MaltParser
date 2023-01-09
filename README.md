@@ -22,6 +22,7 @@ The useful output files are in the following directories:
 4. ./scores/stats: contains statistics about the main experiment, specifially about the file Akkad_part_5 parsed using the Akkad (1-2-3-4) folds. The statistics are obtained by grouping tokens differently for evaluation
 
 # ./data directory
+(Please Note that the data wasn't uploaded to the github repo and was replaced with a sample, but the code would produce the same results if the data folder looks as follows)
 the directory ./data contains the data that is used in the training and the modeling process. It has two conllu files that contain the parsed sentences of the Akkad novel, one of them with text (i.e with the full sentence preceeding its tokenization), and the other is without text. The one without text is the one used to split the data.
 
 The directory also has the following diretories that contains the Akkad data and the PATB data split and merged in different ways:

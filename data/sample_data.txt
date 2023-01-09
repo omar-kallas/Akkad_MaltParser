@@ -1,0 +1,42 @@
+1	سارة	_	PROP	NOM-PROP	_	0	---	_	_
+
+1	سارة	_	PROP	NOM-PROP	_	0	---	_	_
+
+1	تأليف	_	NOM	NOM	_	0	---	_	_
+2	عباس	_	PROP	NOM-PROP	_	1	IDF	_	_
+3	محمود	_	PROP	NOM-PROP	_	2	---	_	_
+4	العقاد	_	PROP	NOM-PROP	_	3	---	_	_
+
+1	سارة	_	PROP	NOM-PROP	_	0	---	_	_
+
+1	سارة	_	PROP	NOM-PROP	_	0	---	_	_
+
+1	عباس	_	PROP	NOM-PROP	_	0	---	_	_
+2	محمود	_	PROP	NOM-PROP	_	1	---	_	_
+3	العقاد	_	PROP	NOM-PROP	_	2	---	_	_
+
+1	سارة	_	PROP	NOM-PROP	_	0	---	_	_
+
+1	أ+	_	PRT	PRT	_	2	MOD	_	_
+2	هو	_	NOM	NOM-PRON	_	0	---	_	_
+3	أنت	_	NOM	NOM	_	2	SBJ	_	_
+4	.	_	PNX	PNX-DOT	_	2	MOD	_	_
+5	.	_	PNX	PNX-DOT	_	4	---	_	_
+6	.	_	PNX	PNX-DOT	_	5	---	_	_
+7		_	PNX	PNX	_	2	MOD	_	_
+
+1	مضت	_	VRB	VRB	_	0	---	_	_
+2	خمسة	_	NOM	NOM-p	_	1	SBJ	_	_
+3	أشهر	_	NOM	NOM	_	2	IDF	_	_
+4	قبل	_	NOM	NOM-PREP	_	1	MOD	_	_
+5	أن	_	PRT	PRT-An	_	4	IDF	_	_
+6	يجرؤ	_	VRB	VRB	_	5	OBJ	_	_
+7	على	_	PRT	PRT-PREP	_	6	MOD	_	_
+8	عبور	_	NOM	NOM	_	7	OBJ	_	_
+9	ذلك	_	NOM	NOM	_	10	MOD	_	_
+10	الشارع	_	NOM	Al-NOM	_	8	IDF	_	_
+11	مشيا	_	NOM	NOM-A	_	8	MOD	_	_
+12	على	_	PRT	PRT-PREP	_	11	MOD	_	_
+13	قدمي	_	NOM	NOM-y	_	12	OBJ	_	_
+14	+ه	_	NOM	NOM-PRON	_	13	IDF	_	_
+15	.	_	PNX	PNX-DOT	_	1	MOD	_	_
